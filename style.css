@@ -67,6 +67,8 @@ h1{
     line-height: 30px;
     letter-spacing: 1px;
     padding-right: 3.25rem; 
+    user-select:none;
+    cursor:default;
 }
 
 .display-password::placeholder{
@@ -86,6 +88,7 @@ h1{
     top:50%;
     right:1.5rem;
     transform: translateY(-50%);
+    cursor:pointer;
 }
 
 .input-container{
